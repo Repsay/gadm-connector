@@ -10,7 +10,7 @@ with open(path.join(HERE, "README.md")) as f:
 setup(
     name="gadm-connector",
     packages=find_packages(),
-    version="0.0.1",
+    version="0.0.2",
     description="GADM Connector to get country border data",
     url="https://github.com/Repsay/gadm-connector",
     download_url="https://github.com/Repsay/gadm-connector/releases",

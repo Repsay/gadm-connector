@@ -86,7 +86,7 @@ class Country(_Internal):
 
         return list(self.data.geometry.apply(coords_lister))[0]
 
-    def get_gdp(self) -> gpd.GeoDataFrame:
+    def get_gpd(self) -> gpd.GeoDataFrame:
         if self.data is None:
             self.__download()
 
